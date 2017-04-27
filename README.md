@@ -7,4 +7,5 @@ For more information about each products please visit links below:
 * [Intel Curie](http://www.intel.com/content/www/us/en/wearables/wearable-soc.html) - Main processor in Arduino/Genuino 101
 
 ## The titles of the projects which will be included in this repository are:
-[[https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/blob/image|alt=octocat]]
+![Alt text](/blob/image?raw=true "Optional Title")
+
