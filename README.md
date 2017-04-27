@@ -7,17 +7,18 @@ For more information about each products please visit links below:
 * [Intel Curie](http://www.intel.com/content/www/us/en/wearables/wearable-soc.html) - Main processor on Arduino/Genuino 101
 
 ## The titles of the projects which will be included in this repository are:
-* [Blinking and Fading a LED]
-* [Click Counter]
-* [Proximity Indicator]
-* [Motion Detector]
-* [Clap Detector]
-* [Ambient Light Monitoring]
-* [Weather Station]
-* [Potentiometer Controlled Servo]
-* [Spirit Level]
-* [IMU Controlled Display]
-* [Speed and Cadence Monitor]
+* [01. Blinking and Fading a LED]
+* [02. Click Counter]
+* [03. Proximity Indicator]
+* [04. Motion Detector]
+* [05. Clap Detector]
+* [06. Ambient Light Monitoring]
+* [07. Weather Station]
+* [08. Potentiometer Controlled Servo]
+* [09. Mario Bros' Tone Generator]
+* [10. Spirit Level]
+* [11. IMU Controlled Display]
+* [12. Speed and Cadence Monitor]
 
 <img src="/blob/try_upload.png" width="300">
 
