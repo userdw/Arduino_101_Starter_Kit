@@ -7,7 +7,7 @@ For more information about each products please visit links below:
 * [Intel Curie](http://www.intel.com/content/www/us/en/wearables/wearable-soc.html) - Main processor on Arduino/Genuino 101
 
 ## The titles of the projects which will be included in this repository are:
-* [01. Blinking and Fading a LED]
+* [01. Blinking and Fading a LED](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/1_Blinking_and_Fading_a_LED)
 * [02. Click Counter]
 * [03. Proximity Indicator]
 * [04. Motion Detector]
