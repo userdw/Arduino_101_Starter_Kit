@@ -1,4 +1,4 @@
-# Genuino 101 Starter Kit [ENGLISH]
+# [ENGLISH] Genuino 101 Starter Kit
 This repository has been created as the companion for Genuino 101 Starter Kit.
 Genuino 101 Starter Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the feature of Intel's SoC chip (Intel Curie), which is embedded as the main processor on Genuino 101 board.
 For more information about each products please visit links below:
@@ -20,7 +20,7 @@ For more information about each products please visit links below:
 * [11. IMU Controlled Display]
 * [12. Speed and Cadence Monitor]
 
-# Genuino 101 Starter Kit [BAHASA INDONESIA]
+# [BAHASA INDONESIA] Genuino 101 Starter Kit
 Repository ini dibuat sebagai pelengkap dari Genuino 101 Starter Kit.
 Genuino 101 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi chip SoC buatan Intel, yaitu Intel Curie, yang bertindak sebagai kontroler utama dari modul Genuino 101.
 Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
