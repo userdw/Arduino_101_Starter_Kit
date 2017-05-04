@@ -31,7 +31,6 @@ void loop() {
   if ((millis() - lastDebounceTime) > DEBOUNCE_DELAY) {
     lastDebounceTime = millis();
     lastBlinkExecuteDelay = millis();
-    Serial.println("gracias");
     blinkTimes++;
     if (blinkTimes > 10) {
       blinkTimes = 0;
@@ -42,7 +41,5 @@ void loop() {
     toggleLED(blinkTimes);
     blinkTimes = 0;
     lastBlinkExecuteDelay = millis();
-    Serial.println("oui");
   }
-
 }
