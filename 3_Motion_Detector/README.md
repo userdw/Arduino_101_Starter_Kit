@@ -3,13 +3,13 @@ How to add movement detection feature to your project? The answer is PIR sensor,
 
 <img src="/images/HC-SR501.png" width="300">
 
-In this project you will need:
+### In this project you will need:
 * Genuino 101 (1),
 * Adapter Shield (1),
 * LED Module (1),
 * PIR Module (1). - [reference](http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-hc-sr501-motion-sensor-tutorial/)
 
-Assemble the modules following these steps:
+### Assemble the modules following these steps:
 1. Plug the Adapter Shield to the top of Genuino 101,
 2. Plug the LED Module to the header on the Adapter Shield labelled **9**,
 3. Configure the trigger of PIR Module to single trigger,
