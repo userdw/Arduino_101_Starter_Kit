@@ -1,11 +1,11 @@
 #define LED_MODULE 9
 #define PUSH_BUTTON_MODULE 2
 #define INTERVAL_CLICK 1000
+#define DEBOUNCE_DELAY 150
+#define TOGGLE_EXECUTE_DELAY 1500
 
 unsigned long lastDebounceTime = 0;
-unsigned long debounceDelay = 150;
 unsigned long lastBlinkExecuteDelay = 0;
-unsigned long blinkExecuteDelay = 1500;
 byte blinkTimes = 0;
 
 void toggleLED(int times) {
@@ -28,7 +28,7 @@ void loop() {
     lastDebounceTime = millis();
   }
 
-  if ((millis() - lastDebounceTime) > debounceDelay) {
+  if ((millis() - lastDebounceTime) > DEBOUNCE_DELAY) {
     lastDebounceTime = millis();
     lastBlinkExecuteDelay = millis();
     Serial.println("gracias");
@@ -38,7 +38,7 @@ void loop() {
     }
   }
 
-  if ((millis() - lastBlinkExecuteDelay) > blinkExecuteDelay) {
+  if ((millis() - lastBlinkExecuteDelay) > TOGGLE_EXECUTE_DELAY) {
     toggleLED(blinkTimes);
     blinkTimes = 0;
     lastBlinkExecuteDelay = millis();
