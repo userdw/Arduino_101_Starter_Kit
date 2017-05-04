@@ -22,7 +22,7 @@ For more information about each products please visit links below:
 
 # Genuino 101 Starter Kit [BAHASA INDONESIA]
 Repository ini dibuat sebagai pelengkap dari Genuino 101 Starter Kit.
-Genuino 101 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi chip SoC buatan Intel, yaitu Intel Curie, yang dijadikan sebagai kontroler utama dari modul Genuino 101.
+Genuino 101 Starter Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi chip SoC buatan Intel, yaitu Intel Curie, yang bertindak sebagai kontroler utama dari modul Genuino 101.
 Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [Genuino 101 Starter Kit](http://digiwarestore.com/en/) - Genuino 101 Starter Kit's product page
 * [Arduino/Genuino 101](https://www.arduino.cc/en/Main/ArduinoBoard101) - Arduino/Genuino 101 as the main development board
