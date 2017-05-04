@@ -7,6 +7,6 @@ In this project you will need:
 
 Assemble the modules following these steps:
 Markup :
-1.hello
+1. hello
 2. hello          
 Plug the Adapter Shield to the top of Genuino 101, then plug the LED Module to 9th header on the Adapter Shield
