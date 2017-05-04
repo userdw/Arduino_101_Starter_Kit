@@ -8,4 +8,6 @@ In this project you will need:
 Assemble the modules following these steps:
 1. Plug the Adapter Shield to the top of Genuino 101
 2. Plug the LED Module to the header on the Adapter Shield labelled **9**
+3. Download the [Blinking and Fading a LED](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/1_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED) code into Genuino 101
 
+If there are no mistakes, the LED Module should start blinking then increase and fade in its brightness.
