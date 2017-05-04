@@ -1,15 +1,17 @@
 # [ENGLISH] Project 3: Motion Detector
-For you which already are familiar with Arduino ecosystem, no extra effort will be spent in this project, since Arduino/Genuino 101 was developed with Arduino compatibility in mind. That means (most of) what you can run on Arduino/Genuino, will be able to run just fine on Arduino/Genuino 101. If this is your first time coding an Arduino/Genuino board, then it will be fast to learn how to control an output pin.
+How to add movement detection feature to your project? The answer is PIR sensor, which is ababbreviation for Passive Infrared sensor. PIR sensor works by measuring infrared light emitted by objects in its field of view. Every objects emit infrared light, therefore PIR sensor should be able to detect their movement as long as the emitted infrared light is high enough to pass the PIR's threshold. The most common application of PIR is an automatic door which can open automatically when someone walking closer to it. On this project we will make a simple system that will detect our body movement utilizing PIR Module and LED Module. If the system is detecting our body movement, then it will light up the LED Module.
 
 In this project you will need:
 * Genuino 101 (1),
 * Adapter Shield (1),
-* LED Module (1).
+* LED Module (1),
+* PIR Module (1). - [reference](http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-hc-sr501-motion-sensor-tutorial/)
 
 Assemble the modules following these steps:
 1. Plug the Adapter Shield to the top of Genuino 101,
 2. Plug the LED Module to the header on the Adapter Shield labelled **9**,
-3. Upload the [Blinking and Fading a LED](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/1_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED) code into Genuino 101.
+3. Plug the PIR Module to the header on the Adapter Shield labelled **2**,
+4. Upload the [Motion_Detector](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/3_Motion_Detector/Motion_Detector) code into Genuino 101.
 
 If there are no mistakes, the LED Module should start blinking then increase and fade in its brightness.
 
