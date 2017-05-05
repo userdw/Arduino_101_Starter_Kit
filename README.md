@@ -16,7 +16,7 @@ For more information about each products please visit links below:
 * [07. Weather Station]
 * [08. Potentiometer Controlled Servo]
 * [09. Mario Bros' Tone Generator]
-* [10. Spirit Level]
+* [10. Spirit Level](/10_Spirit_Level)
 * [11. IMU Controlled Display]
 * [12. Speed and Cadence Monitor]
 
@@ -38,6 +38,6 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [07. Weather Station]
 * [08. Potentiometer Controlled Servo]
 * [09. Mario Bros' Tone Generator]
-* [10. Spirit Level]
+* [10. Spirit Level](/10_Spirit_Level)
 * [11. IMU Controlled Display]
 * [12. Speed and Cadence Monitor]
