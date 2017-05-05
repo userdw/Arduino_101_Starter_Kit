@@ -11,7 +11,7 @@ On the last project we learned how to control output pin on Arduino/Genuino 101 
 1. Plug the Adapter Shield to the top of Genuino 101,
 2. Plug the LED Module to the header on the Adapter Shield labelled **9**,
 3. Plug the Push Button Module to the header on the Adapter Shield labelled **2**,
-4. Upload the [Click Counter](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/2_Click_Counter/Click_Counter) code into Genuino 101.
+4. Upload the [Click Counter](/02_Click_Counter/Click_Counter) code into Genuino 101.
 
 If there are no mistakes, LED Module should blink according to the number of clicks given to the Push Button Module.
 
@@ -28,6 +28,6 @@ Pada proyek sebelumnya, kita telah belajar bagaimana mengendalikan pin output pa
 1. Pasang Adapter Shield di atas Genuino 101,
 2. Hubungkan LED Module ke header Adapter Shield yang berlabel **9**,
 3. Hubungkan Push Button Module ke header Adapter Shield yang berlabel **2**,
-4. Upload kode program [Click Counter](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/2_Click_Counter/Click_Counter) ke Genuino 101.
+4. Upload kode program [Click Counter](/02_Click_Counter/Click_Counter) ke Genuino 101.
 
 Apabila tidak terdapat kesalahan, maka LED Module akan berkedip sesuai dengan jumlah penekanan yang diberikan pada Push Button Module.
