@@ -44,7 +44,7 @@ void drawNoticeMenu(byte percentage) {
   if (percentage > 100) {
     percentage = 100;
   }
-  
+
   u8g2.setFont(u8g2_font_timR10_tf);
   u8g2.drawStr(0, 12, "Keep the board laying");
   u8g2.drawStr(0, 26, "flat and motionless for");
