@@ -72,8 +72,6 @@ void setup(void) {
 
 void loop(void) {
   int aix = CurieIMU.readAccelerometer(X_AXIS);
-  int aiy = CurieIMU.readAccelerometer(Y_AXIS);
-  int aiz = CurieIMU.readAccelerometer(Z_AXIS);
   u8g2.clearBuffer();
   drawLevelPage(map(aix, -16383, 16382, -90, 90));
   u8g2.sendBuffer();
