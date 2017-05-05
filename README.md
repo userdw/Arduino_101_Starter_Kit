@@ -9,8 +9,8 @@ For more information about each products please visit links below:
 ## The titles of the projects which will be included in this repository are:
 * [01. Blinking and Fading a LED](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/1_Blinking_and_Fading_a_LED)
 * [02. Click Counter](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/2_Click_Counter)
-* [03. Proximity Indicator](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/3_Motion_Detector)
-* [04. Motion Detector]
+* [03. Proximity Indicator]
+* [04. Motion Detector](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/4_Motion_Detector)
 * [05. Clap Detector]
 * [06. Ambient Light Monitoring]
 * [07. Weather Station]
@@ -31,8 +31,8 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 ## The titles of the projects which will be included in this repository are:
 * [01. Blinking and Fading a LED](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/1_Blinking_and_Fading_a_LED)
 * [02. Click Counter](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/2_Click_Counter)
-* [03. Proximity Indicator](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/3_Motion_Detector)
-* [04. Motion Detector]
+* [03. Proximity Indicator]
+* [04. Motion Detector](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/4_Motion_Detector)
 * [05. Clap Detector]
 * [06. Ambient Light Monitoring]
 * [07. Weather Station]
