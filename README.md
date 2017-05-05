@@ -8,8 +8,8 @@ For more information about each products please visit links below:
 
 ## The titles of the projects which will be included in this repository are:
 * [01. Blinking and Fading a LED](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/1_Blinking_and_Fading_a_LED)
-* [02. Click Counter]
-* [03. Proximity Indicator]
+* [02. Click Counter](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/2_Click_Counter)
+* [03. Proximity Indicator](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/3_Motion_Detector)
 * [04. Motion Detector]
 * [05. Clap Detector]
 * [06. Ambient Light Monitoring]
@@ -30,8 +30,8 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 
 ## The titles of the projects which will be included in this repository are:
 * [01. Blinking and Fading a LED](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/1_Blinking_and_Fading_a_LED)
-* [02. Click Counter]
-* [03. Proximity Indicator]
+* [02. Click Counter](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/2_Click_Counter)
+* [03. Proximity Indicator](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/3_Motion_Detector)
 * [04. Motion Detector]
 * [05. Clap Detector]
 * [06. Ambient Light Monitoring]
@@ -41,6 +41,3 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [10. Spirit Level]
 * [11. IMU Controlled Display]
 * [12. Speed and Cadence Monitor]
-
-<img src="/blob/try_upload.png" width="300">
-
