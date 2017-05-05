@@ -14,7 +14,7 @@ How to add movement detection feature to your project? The answer is PIR sensor,
 2. Plug the LED Module to the header on the Adapter Shield labelled **9**,
 3. Configure the trigger of PIR Module to single trigger,
 4. Plug the PIR Module to the header on the Adapter Shield labelled **2**,
-5. Upload the [Motion_Detector](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/3_Motion_Detector/Motion_Detector) code into Genuino 101.
+5. Upload the [Motion_Detector](/03_Motion_Detector/Motion_Detector) code into Genuino 101.
 
 If there are no mistakes, LED Module should blink as long as there is movevment detected by PIR Module.
 
@@ -34,6 +34,6 @@ Bagaimana kita dapat menambahkan fitur pendeteksi gerakan pada sistem kita? Jawa
 2. Hubungkan LED Module ke header Adapter Shield yang berlabel **9**
 3. Konfigurasikan agar trigger dari PIR Module bekerja pada mode single trigger,
 4. Hubungkan PIR Module ke header Adapter Shield yang berlabel **2**,
-5. Upload kode program [Motion_Detector](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/3_Motion_Detector/Motion_Detector) ke Genuino 101.
+5. Upload kode program [Motion_Detector](/03_Motion_Detector/Motion_Detector) ke Genuino 101.
 
 Apabila tidak terdapat kesalahan, LED Module akan berkedip selama terdapat gerakan yang dideteksi oleh PIR Module.
