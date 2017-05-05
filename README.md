@@ -28,7 +28,7 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [Arduino/Genuino 101](https://www.arduino.cc/en/Main/ArduinoBoard101) - Arduino/Genuino 101 sebagai development board utama
 * [Intel Curie](http://www.intel.com/content/www/us/en/wearables/wearable-soc.html) - Pemroses utama pada Arduino/Genuino 101
 
-## The titles of the projects which will be included in this repository are:
+## Judul-judul proyek yang akan disertakan pada repository ini adalah:
 * [01. Blinking and Fading a LED](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/1_Blinking_and_Fading_a_LED)
 * [02. Click Counter](https://github.com/IETrainingDiv/Genuino_101_Starter_Kit/tree/master/2_Click_Counter)
 * [03. Proximity Indicator]
