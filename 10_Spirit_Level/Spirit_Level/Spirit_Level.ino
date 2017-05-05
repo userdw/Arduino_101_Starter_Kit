@@ -1,5 +1,6 @@
 #include <U8g2lib.h>
 #include <CurieIMU.h>
+#define CALIBRATION_TIME 3000
 
 //variable for OLED
 U8G2_SSD1306_128X64_VCOMH0_F_4W_HW_SPI u8g2(U8G2_R0, /*cs=*/ 10, /*dc=*/ 9, /*reset=*/ 8);
@@ -11,7 +12,7 @@ void drawLevelPage(int8_t level) {
   else if (level > 90) {
     level = 90;
   }
-  
+
   u8g2.setFont(u8g2_font_crox3cb_mn);
   u8g2.drawVLine(0, 16, 63);
   u8g2.drawVLine(63, 16, 63);
@@ -39,12 +40,17 @@ void drawLevelPage(int8_t level) {
   u8g2.drawUTF8(xPosString, 46, "°");
 }
 
-void drawNoticeMenu() {
+void drawNoticeMenu(byte percentage) {
+  if (percentage > 100) {
+    percentage = 100;
+  }
+  
   u8g2.setFont(u8g2_font_timR10_tf);
-  u8g2.drawStr(0, 12, "Keep the board");
-  u8g2.drawStr(0, 26, "laying flat and");
-  u8g2.drawStr(0, 40, "motionless for");
-  u8g2.drawStr(0, 54, "3 seconds");
+  u8g2.drawStr(0, 12, "Keep the board laying");
+  u8g2.drawStr(0, 26, "flat and motionless for");
+  u8g2.drawStr(0, 40, "3 seconds");
+  u8g2.drawFrame(u8g2.getDisplayWidth() / 8, 48, u8g2.getDisplayWidth() / 8 * 6, 5);
+  u8g2.drawBox(u8g2.getDisplayWidth() / 8, 48, map(percentage, 0, 100, 0, u8g2.getDisplayWidth() / 8 * 6), 5);
 }
 
 void drawWelcomeMenu() {
@@ -61,13 +67,15 @@ void setup(void) {
   drawWelcomeMenu();
   u8g2.sendBuffer();
   delay(2000);
-  u8g2.clearBuffer();
-  drawNoticeMenu();
-  u8g2.sendBuffer();
-  delay(4000);
-  CurieIMU.autoCalibrateAccelerometerOffset(X_AXIS, 0);
-  CurieIMU.autoCalibrateAccelerometerOffset(Y_AXIS, 0);
-  CurieIMU.autoCalibrateAccelerometerOffset(Z_AXIS, 1);
+  unsigned long startCalibration = millis();
+  while ((millis() - startCalibration) <= CALIBRATION_TIME) {
+    CurieIMU.autoCalibrateAccelerometerOffset(X_AXIS, 0);
+    CurieIMU.autoCalibrateAccelerometerOffset(Y_AXIS, 0);
+    CurieIMU.autoCalibrateAccelerometerOffset(Z_AXIS, 1);
+    u8g2.clearBuffer();
+    drawNoticeMenu(map(millis() - startCalibration, 0, 3000, 0, 100));
+    u8g2.sendBuffer();
+  }
 }
 
 void loop(void) {
