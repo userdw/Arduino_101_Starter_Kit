@@ -13,7 +13,6 @@ void drawLevelPage(int8_t level) {
     level = 90;
   }
 
-  u8g2.setFont(u8g2_font_crox3cb_mn);
   u8g2.drawVLine(0, 16, 63);
   u8g2.drawVLine(63, 16, 63);
   for (byte i = 8; i < 32; i++) {
