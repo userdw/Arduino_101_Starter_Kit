@@ -9,7 +9,7 @@ For more information about each products please visit links below:
 ## The titles of the projects which will be included in this repository are:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
 * [02. Click Counter](/02_Click_Counter)
-* [03. Proximity Indicator]
+* [03. Proximity Indicator](/03_Proximity_Indicator)
 * [04. Motion Detector](/04_Motion_Detector)
 * [05. Clap Detector](/05_Clap_Detector)
 * [06. Ambient Light Monitoring](/06_Ambient_Light_Monitoring)
