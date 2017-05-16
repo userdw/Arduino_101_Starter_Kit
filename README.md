@@ -30,12 +30,12 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 ## Judul-judul proyek yang akan disertakan pada repository ini adalah:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
 * [02. Click Counter](/02_Click_Counter)
-* [03. Proximity Indicator]
+* [03. Proximity Indicator](/03_Proximity_Indicator)
 * [04. Motion Detector](/04_Motion_Detector)
-* [05. Ambient Light Monitoring]
-* [06. Potentiometer Controlled Servo]
-* [07. Mario Bros' Tone Generator]
-* [08. Weather Station]
+* [05. Ambient Light Monitoring](/05_Ambient_Light_Monitoring)
+* [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
+* [07. Mario Bros' Tone Generator](/07_Mario_Bros_Tone_Generator)
+* [08. Weather Station](/08_Weather_Station)
 * [09. Spirit Level](/09_Spirit_Level)
-* [10. IMU Controlled Display]
-* [11. Speed and Cadence Monitor]
+* [10. IMU Controlled Display](/10_IMU_Controlled_Display)
+* [11. Speed and Cadence Monitor](/11_Speed_and_Cadence_Monitor)
