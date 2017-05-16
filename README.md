@@ -11,14 +11,13 @@ For more information about each products please visit links below:
 * [02. Click Counter](/02_Click_Counter)
 * [03. Proximity Indicator](/03_Proximity_Indicator)
 * [04. Motion Detector](/04_Motion_Detector)
-* [05. Clap Detector](/05_Clap_Detector)
-* [06. Ambient Light Monitoring](/06_Ambient_Light_Monitoring)
-* [07. Potentiometer Controlled Servo](/07_Potentiometer_Controlled_Servo)
-* [08. Mario Bros' Tone Generator](/08_Mario_Bros_Tone_Generator)
-* [09. Weather Station](/09_Weather_Station)
-* [10. Spirit Level](/10_Spirit_Level)
-* [11. IMU Controlled Display](/11_IMU_Controlled_Display)
-* [12. Speed and Cadence Monitor](/12_Speed_and_Cadence_Monitor)
+* [05. Ambient Light Monitoring](/05_Ambient_Light_Monitoring)
+* [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
+* [07. Mario Bros' Tone Generator](/07_Mario_Bros_Tone_Generator)
+* [08. Weather Station](/08_Weather_Station)
+* [09. Spirit Level](/09_Spirit_Level)
+* [10. IMU Controlled Display](/10_IMU_Controlled_Display)
+* [11. Speed and Cadence Monitor](/11_Speed_and_Cadence_Monitor)
 
 # [BAHASA INDONESIA] Genuino 101 Starter Kit
 Repository ini dibuat sebagai pelengkap dari Genuino 101 Starter Kit.
@@ -33,11 +32,10 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [02. Click Counter](/02_Click_Counter)
 * [03. Proximity Indicator]
 * [04. Motion Detector](/04_Motion_Detector)
-* [05. Clap Detector]
-* [06. Ambient Light Monitoring]
-* [07. Potentiometer Controlled Servo]
-* [08. Mario Bros' Tone Generator]
-* [09. Weather Station]
-* [10. Spirit Level](/10_Spirit_Level)
-* [11. IMU Controlled Display]
-* [12. Speed and Cadence Monitor]
+* [05. Ambient Light Monitoring]
+* [06. Potentiometer Controlled Servo]
+* [07. Mario Bros' Tone Generator]
+* [08. Weather Station]
+* [09. Spirit Level](/09_Spirit_Level)
+* [10. IMU Controlled Display]
+* [11. Speed and Cadence Monitor]
