@@ -1,5 +1,5 @@
 # [ENGLISH] Project 2: Click Counter
-On the last project we learned how to control output pin on Arduino/Genuino 101 by uploading a program that blinks a LED and changing LED's brightness. In this project we will learn how to count a click (reading an input pin) on a button using Arduino/Genuino 101. This project will use LED Module which will blink as many as clicks the Digital Push Button gets. Also, in this project we will utilize the built in Arduino function called **millis()** to debouce the Digital Push Button.
+On the last project we learned how to control output pin on Arduino/Genuino 101 by uploading a program that blinks a LED and changing LED's brightness. In this project we will learn how to count a click (reading an input pin) on a button using Arduino/Genuino 101. This project will use LED Module which will blink as many as the number of clicks the Digital Push Button gets. Also, in this project we will utilize the built in Arduino function called **millis()** to debouce the Digital Push Button.
 
 ### In this project you will need:
 * Genuino 101 (1),
