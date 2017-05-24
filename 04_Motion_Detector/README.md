@@ -1,7 +1,7 @@
 # [ENGLISH] Project 4: Motion Detector
 How to add movement detection feature to your project? The answer is PIR sensor, which is ababbreviation for Passive Infrared sensor. PIR sensor works by measuring infrared light emitted by objects in its field of view. When there is a change in the amount of infrared light PIR sensor received, it will send a signal to our system. Every objects emit infrared light, therefore PIR sensor should be able to detect their movement as long as the emitted infrared light is high enough to pass the PIR's threshold. The most common application of PIR is an automatic door which can open automatically when someone walking closer to it. On this project we will make a simple system that will detect our body movement utilizing PIR Module and LED Module. If the system is detecting our body movement, then it will light up the LED Module.
 
-<img src="/images/HC-SR501_en.jpg" height="225">
+<img src="/images/HC-SR501.jpg" height="225">
 
 <img src="/images/Motion_Detector.png" height="400">
 
