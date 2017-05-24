@@ -1,37 +1,39 @@
 # [ENGLISH] Project 5: Ambient Light Monitoring
-How to add movement detection feature to your project? The answer is PIR sensor, which is ababbreviation for Passive Infrared sensor. PIR sensor works by measuring infrared light emitted by objects in its field of view. When there is a change in the amount of infrared light PIR sensor received, it will send a signal to our system. Every objects emit infrared light, therefore PIR sensor should be able to detect their movement as long as the emitted infrared light is high enough to pass the PIR's threshold. The most common application of PIR is an automatic door which can open automatically when someone walking closer to it. On this project we will make a simple system that will detect our body movement utilizing PIR Sensor and LED Module. If the system is detecting our body movement, then it will light up the LED Module.
+Through this project you will be introduced to the usage of Light Dependent Resistor (LDR) to estimate the ambient light surrounding the system. This kind of system will be found in outdoor lighting or even in our smartphone to control screen brightness.
+The system in this project will detect the level of ambient light. When the ambient light gets brighter, the LED brightness will increase. On the contrary, when the ambient light gets dimmer, the LED brightness will decrease.
 
-<img src="/images/Motion_Detector.png" height="400">
+<img src="/images/Ambient_Light_Monitoring.png" height="400">
 
 ### In this project you will need:
 * Genuino 101 (1),
 * I/O Expansion Shield (1),
 * LED Module (1),
-* PIR Sensor (1).
+* LDR Sensor (1).
 
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of Genuino 101,
 2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
-3. Plug the PIR Sensor to the header on the I/O Expansion Shield labelled **2**,
-4. Upload the [Motion_Detector](/04_Motion_Detector/Motion_Detector) code into Genuino 101.
+3. Plug the LDR Sensor to the header on the I/O Expansion Shield labelled **A0**,
+4. Upload the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) code into Genuino 101.
 
-If there are no mistakes, LED Module should blink as long as there is movevment detected by PIR Sensor.
+If there are no mistakes, LED Module will gets brighter when the ambient light gets dimmer. On the contrary, LED Module will gets dimmer when the ambient light gets brighter.
 
 # [BAHASA INDONESIA] Proyek 5: Ambient Light Monitoring
-Bagaimana kita dapat menambahkan fitur pendeteksi gerakan pada sistem kita? Jawabannya adalah dengan menggunakan sensor PIR, dimana PIR sendiri merupakan kependekan dari Passive Infrared. Sensor PIR bekerja dengan cara mengukur cahaya infra merah yang dipancarkan oleh obyek yang berada pada area pendeteksiannya. Apabila terdapat perubahan dari intensitas cahaya infra merah yang diterima oleh sensor PIR, maka sensor PIR akan mengirimkan sinyal pada sistem kita. Sensor PIR akan dapat mendeteksi gerakan dari obyek-obyek selama cahaya infra merah yang dipancarkan melebihi nilai threshold dari sensor PIR tersebut. Aplikasi yang paling umum dari PIR adalah pintu otomatis yang akan membuka sendiri apabila ada orang yang berjalan mendekat. Pada proyek ini kira akan membuat sebuah sistem sederhana yang akan mendeteksi gerakan tubuh kita memanfaatkan PIR Sensor dan LED Module. Apabila sistem mendeteksi gerakan tubuh kita, maka sistem akan menyalakan LED Module.
+Proyek ini digunakan untuk memberikan gambaran mengenai penggunaan sensor LDR (Light Dependent Resistor) untuk mengukur intensitas cahaya lingkungan sekitar. Aplikasi seperti ini dapat ditemukan pada sistem lampu taman hingga pengatur tingkat kecerahan layar pada smartphone kita.
+Sistem pada proyek ini akan mendeteksi intensitas cahaya sekitar menggunakan LDR Sensor. Apabila intensitas cahaya yang diterima semakin besar, maka tingkat kecerahan LED akan naik. Sebaliknya, apabila intensitas cahaya yang diterima semakin kecil, maka tingkat kecerahan LED akan menurun.
 
-<img src="/images/Motion_Detector.png" height="400">
+<img src="/images/Ambient_Light_Monitoring.png" height="400">
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * Genuino 101 (1),
 * I/O Expansion Shield (1),
 * LED Module (1),
-* PIR Sensor (1).
+* LDR Sensor (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang Adapter Shield di atas Genuino 101,
 2. Hubungkan LED Module ke header Adapter Shield yang berlabel **9**,
-3. Hubungkan PIR Sensor ke header Adapter Shield yang berlabel **2**,
-4. Upload kode program [Motion_Detector](/04_Motion_Detector/Motion_Detector) ke Genuino 101.
+3. Hubungkan LDR Sensor ke header Adapter Shield yang berlabel **A0**,
+4. Upload kode program [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) ke Genuino 101.
 
-Apabila tidak terdapat kesalahan, LED Module akan berkedip selama terdapat gerakan yang dideteksi oleh PIR Sensor.
+Apabila tidak terdapat kesalahan, nyala LED Module akan semakin terang saat cahaya sekitar semakin gelap. Sebaliknya, nyala LED Module akan semakin redup saat cahaya sekitar semakin terang.
