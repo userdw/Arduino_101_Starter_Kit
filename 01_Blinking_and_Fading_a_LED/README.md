@@ -6,7 +6,7 @@ For you which already are familiar with Arduino ecosystem, no extra effort will 
 * Adapter Shield (1),
 * LED Module (1).
 
-<img src="/images/Blinking_and_Fading_a_LED.png.png" height="225">
+<img src="/images/Blinking_and_Fading_a_LED.png" height="225">
 
 ### Assemble the modules following these steps:
 1. Plug the Adapter Shield to the top of Genuino 101,
