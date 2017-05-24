@@ -6,7 +6,7 @@ For you which already are familiar with Arduino ecosystem, no extra effort will 
 * I/O Expansion Shield (1),
 * LED Module (1).
 
-<img src="/images/Blinking_and_Fading_a_LED.png" height="225">
+<img src="/images/Blinking_and_Fading_a_LED.png" height="400">
 
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of Genuino 101,
@@ -23,7 +23,7 @@ Bagi Anda yang sudah mengenal Arduino beserta pemrogramannya, proyek ini tentu t
 * I/O Expansion Shield (1),
 * LED Module (1).
 
-<img src="/images/Blinking_and_Fading_a_LED.png" height="225">
+<img src="/images/Blinking_and_Fading_a_LED.png" height="400">
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang I/O Expansion Shield di atas Genuino 101,
