@@ -1,5 +1,5 @@
 # [ENGLISH] Project 2: Click Counter
-On the last project we learned how to control output pin on Arduino/Genuino 101 by uploading a program that blinks a LED and changing LED's brightness. In this project we will learn how to count a click (reading an input pin) on a button using Arduino/Genuino 101. This project will use LED Module which will blink as many as clicks the Push Button Module gets. Also, in this project we will utilize the built in Arduino function called **millis()** to debouce the Push Button Module.
+On the last project we learned how to control output pin on Arduino/Genuino 101 by uploading a program that blinks a LED and changing LED's brightness. In this project we will learn how to count a click (reading an input pin) on a button using Arduino/Genuino 101. This project will use LED Module which will blink as many as clicks the Digital Push Button gets. Also, in this project we will utilize the built in Arduino function called **millis()** to debouce the Digital Push Button.
 
 ### In this project you will need:
 * Genuino 101 (1),
@@ -18,7 +18,7 @@ On the last project we learned how to control output pin on Arduino/Genuino 101 
 If there are no mistakes, LED Module should blink according to the number of clicks given to the Digital Push Button.
 
 # [BAHASA INDONESIA] Proyek 2: Click Counter
-Pada proyek sebelumnya, kita telah belajar bagaimana mengendalikan pin output pada Arduino/Genuino 101 dengan cara meng-upload kode program yang mengedipkan LED serta mengubah tingkat kecerahan LED. Pada proyek ini akan dibahas bagaimana kita menghitung klik (membaca pin input) pada sebuah tombol menggunakan Arduino/Genuino 101. Proyek ini menggunakan LED Module yang akan berkedip sebanyak penekanan yang kita berikan pada Push Button Module. Proyek ini juga menggunakan fungsi internal dari Arduino yaitu **millis()** untuk mengimplementasikan fitur debounce.
+Pada proyek sebelumnya, kita telah belajar bagaimana mengendalikan pin output pada Arduino/Genuino 101 dengan cara meng-upload kode program yang mengedipkan LED serta mengubah tingkat kecerahan LED. Pada proyek ini akan dibahas bagaimana kita menghitung klik (membaca pin input) pada sebuah tombol menggunakan Arduino/Genuino 101. Proyek ini menggunakan LED Module yang akan berkedip sebanyak penekanan yang kita berikan pada Digital Push Button. Proyek ini juga menggunakan fungsi internal dari Arduino yaitu **millis()** untuk mengimplementasikan fitur debounce.
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * Genuino 101 (1),
