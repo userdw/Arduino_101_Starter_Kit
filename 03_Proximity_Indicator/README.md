@@ -17,7 +17,7 @@ Measuring distance can be done through a lot of methods. One of the most common 
 
 If there are no mistakes, LED Module should blink faster as the object gets near. On the contrary, LED Module should blink slower as the objects gets further.
 
-# [BAHASA INDONESIA] Proyek 4: Motion Detector
+# [BAHASA INDONESIA] Proyek 3: Proximity Indicator
 Pengukuran jarak dapat dilakukan dengan banyak cara, dimana salah satu metode yang digunakan adalah memanfaatkan sifat pantulan cahaya. Proyek ini bertujuan untuk mendemonstrasikan penggunaan sensor cahaya, yaitu phototransistor dengan Genuino 101. Sistem pada proyek ini akan mendeteksi keberadaan dari suatu obyek. Apabila obyek semakin mendekat maka LED akan berkedip semakin cepat. Sebaliknya, apabila obyek semakin menjauh, maka kedipan LED akan semakin lambat.
 
 <img src="/images/Proximity_Indicator.png" height="400">
