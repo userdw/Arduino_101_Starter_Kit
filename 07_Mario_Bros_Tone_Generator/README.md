@@ -26,7 +26,7 @@ Buzzer merupakan komponen yang akan menghasilkan suara ketika diberi tegangan. K
 * Buzzer Module (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang Adapter Shield di atas Genuino 101,
+1. Pasang I/O Expansion Shield di atas Genuino 101,
 2. Hubungkan Buzzer Module ke header I/O Expansion Shield yang berlabel **3**,
 3. Upload kode program [Mario_Bros_Tone_Generator](/07_Mario_Bros_Tone_Generator/Mario_Bros_Tone_Generator) ke Genuino 101.
 
