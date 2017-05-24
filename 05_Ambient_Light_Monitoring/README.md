@@ -19,7 +19,7 @@ The system in this project will detect the level of ambient light. When the ambi
 If there are no mistakes, LED Module will gets brighter when the ambient light gets dimmer. On the contrary, LED Module will gets dimmer when the ambient light gets brighter.
 
 # [BAHASA INDONESIA] Proyek 5: Ambient Light Monitoring
-Proyek ini digunakan untuk memberikan gambaran mengenai penggunaan sensor LDR (Light Dependent Resistor) untuk mengukur intensitas cahaya lingkungan sekitar. Aplikasi seperti ini dapat ditemukan pada sistem lampu taman hingga pengatur tingkat kecerahan layar pada smartphone kita.
+Proyek ini digunakan untuk memberikan gambaran mengenai penggunaan sensor Light Dependent Resistor (LDR) untuk mengukur intensitas cahaya lingkungan sekitar. Aplikasi seperti ini dapat ditemukan pada sistem lampu taman hingga pengatur tingkat kecerahan layar pada smartphone kita.
 Sistem pada proyek ini akan mendeteksi intensitas cahaya sekitar menggunakan LDR Sensor. Apabila intensitas cahaya yang diterima semakin besar, maka tingkat kecerahan LED akan naik. Sebaliknya, apabila intensitas cahaya yang diterima semakin kecil, maka tingkat kecerahan LED akan menurun.
 
 <img src="/images/Ambient_Light_Monitoring.png" height="400">
