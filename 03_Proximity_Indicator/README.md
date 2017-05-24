@@ -30,8 +30,8 @@ Pengukuran jarak dapat dilakukan dengan banyak cara, dimana salah satu metode ya
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang I/O Expansion Shield di atas Genuino 101,
-2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**
-3. Hubungkan IR Sensor ke header I/O Expansion Shield yang berlabel **A0**
+2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**,
+3. Hubungkan IR Sensor ke header I/O Expansion Shield yang berlabel **A0**,
 4. Upload kode program [Proximity_Indicator](/03_Proximity_Indicator/Proximity_Indicator) ke Genuino 101.
 
 Apabila tidak terdapat kesalahan, maka LED Module akan berkedip semakin cepat saat obyek yang dideteksi semakin mendekat. Sebaliknya, LED Module akan berkedip semakin lambat saat obyek yang dideteksi semakin menjauh.
