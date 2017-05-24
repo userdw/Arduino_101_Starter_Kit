@@ -7,7 +7,7 @@ On the last project we learned how to control output pin on Arduino/Genuino 101 
 * LED Module (1),
 * Digital Push Button (1).
 
-<img src="/images/Click_Counter.png" height="225">
+<img src="/images/Click_Counter.png" height="400">
 
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of Genuino 101,
@@ -26,7 +26,7 @@ Pada proyek sebelumnya, kita telah belajar bagaimana mengendalikan pin output pa
 * LED Module (1),
 * Digital Push Button (1).
 
-<img src="/images/Click_Counter.png" height="225">
+<img src="/images/Click_Counter.png" height="400">
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang Adapter Shield di atas Genuino 101,
