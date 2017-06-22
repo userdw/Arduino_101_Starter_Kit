@@ -5,16 +5,16 @@ The system in this project will detect the level of ambient light. When the ambi
 <img src="/images/Ambient_Light_Monitoring.png" height="400">
 
 ### In this project you will need:
-* Genuino 101 (1),
+* Arduino 101 (1),
 * I/O Expansion Shield (1),
 * LED Module (1),
 * LDR Sensor (1).
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of Genuino 101,
+1. Plug the I/O Expansion Shield to the top of Arduino 101,
 2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
 3. Plug the LDR Sensor to the header on the I/O Expansion Shield labelled **A0**,
-4. Upload the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) code into Genuino 101.
+4. Upload the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) code into Arduino 101.
 
 If there are no mistakes, LED Module will gets brighter when the ambient light gets dimmer. On the contrary, LED Module will gets dimmer when the ambient light gets brighter.
 
@@ -25,15 +25,15 @@ Sistem pada proyek ini akan mendeteksi intensitas cahaya sekitar menggunakan LDR
 <img src="/images/Ambient_Light_Monitoring.png" height="400">
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
-* Genuino 101 (1),
+* Arduino 101 (1),
 * I/O Expansion Shield (1),
 * LED Module (1),
 * LDR Sensor (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang Adapter Shield di atas Genuino 101,
+1. Pasang Adapter Shield di atas Arduino 101,
 2. Hubungkan LED Module ke header Adapter Shield yang berlabel **9**,
 3. Hubungkan LDR Sensor ke header Adapter Shield yang berlabel **A0**,
-4. Upload kode program [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) ke Genuino 101.
+4. Upload kode program [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) ke Arduino 101.
 
 Apabila tidak terdapat kesalahan, nyala LED Module akan semakin terang saat cahaya sekitar semakin gelap. Sebaliknya, nyala LED Module akan semakin redup saat cahaya sekitar semakin terang.
