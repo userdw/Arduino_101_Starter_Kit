@@ -4,16 +4,16 @@ How to add movement detection feature to your project? The answer is PIR sensor,
 <img src="/images/Motion_Detector.png" height="400">
 
 ### In this project you will need:
-* Genuino 101 (1),
+* Arduino 101 (1),
 * I/O Expansion Shield (1),
 * LED Module (1),
 * PIR Sensor (1).
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of Genuino 101,
+1. Plug the I/O Expansion Shield to the top of Arduino 101,
 2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
 3. Plug the PIR Sensor to the header on the I/O Expansion Shield labelled **2**,
-4. Upload the [Motion_Detector](/04_Motion_Detector/Motion_Detector) code into Genuino 101.
+4. Upload the [Motion_Detector](/04_Motion_Detector/Motion_Detector) code into Arduino 101.
 
 If there are no mistakes, LED Module should blink as long as there is movevment detected by PIR Sensor.
 
@@ -23,15 +23,15 @@ Bagaimana kita dapat menambahkan fitur pendeteksi gerakan pada sistem kita? Jawa
 <img src="/images/Motion_Detector.png" height="400">
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
-* Genuino 101 (1),
+* Arduino 101 (1),
 * I/O Expansion Shield (1),
 * LED Module (1),
 * PIR Sensor (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang Adapter Shield di atas Genuino 101,
+1. Pasang Adapter Shield di atas Arduino 101,
 2. Hubungkan LED Module ke header Adapter Shield yang berlabel **9**,
 3. Hubungkan PIR Sensor ke header Adapter Shield yang berlabel **2**,
-4. Upload kode program [Motion_Detector](/04_Motion_Detector/Motion_Detector) ke Genuino 101.
+4. Upload kode program [Motion_Detector](/04_Motion_Detector/Motion_Detector) ke Arduino 101.
 
 Apabila tidak terdapat kesalahan, LED Module akan berkedip selama terdapat gerakan yang dideteksi oleh PIR Sensor.
