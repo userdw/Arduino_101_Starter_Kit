@@ -4,16 +4,16 @@ If we need to control an output which have more states than on/off, we will have
 <img src="/images/Potentiometer_Controlled_Servo.png" height="400">
 
 ### In this project you will need:
-* Genuino 101 (1),
+* Arduino 101 (1),
 * I/O Expansion Shield (1),
 * Rotation Sensor (1),
 * Micro Servo (1).
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of Genuino 101,
+1. Plug the I/O Expansion Shield to the top of Arduino 101,
 2. Plug the Rotation Sensor to the header on the I/O Expansion Shield labelled **A0**,
 3. Plug the Micro Servo to the header on the I/O Expansion Shield labelled **6**,
-4. Upload the [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code into Genuino 101.
+4. Upload the [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code into Arduino 101.
 
 If there are no mistakes, Micro Servo movement will be determined by the rotation of Rotation Sensor.
 
@@ -24,15 +24,15 @@ Pada proyek ini akan dikenalkan penggunaan potensiometer sebagai perangkat input
 <img src="/images/Potentiometer_Controlled_Servo.png" height="400">
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
-* Genuino 101 (1),
+* Arduino 101 (1),
 * I/O Expansion Shield (1),
 * Rotation Sensor (1),
 * Micro Servo (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang Adapter Shield di atas Genuino 101,
+1. Pasang Adapter Shield di atas Arduino 101,
 2. Hubungkan Rotation Sensor ke header Adapter Shield yang berlabel **A0**,
 3. Hubungkan Micro Servo ke header Adapter Shield yang berlabel **6**,
-4. Upload kode program [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) ke Genuino 101.
+4. Upload kode program [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) ke Arduino 101.
 
 Apabila tidak terdapat kesalahan, gerakan Micro Servo akan ditentukan dari putaran yang diberikan ke Rotation Sensor.
