@@ -15,7 +15,7 @@ void fadeLED(int times) {
       analogWrite(LED_MODULE, j);
       delay(1);
     }
-    for (int j = 255; j > 0; j--) {
+    for (int j = 255; j >= 0; j--) {
       analogWrite(LED_MODULE, j);
       delay(1);
     }
