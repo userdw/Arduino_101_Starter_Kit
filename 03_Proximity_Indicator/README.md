@@ -15,6 +15,7 @@ Measuring distance can be done through a lot of methods. One of the most common 
 3. Plug the IR Sensor to the header on the I/O Expansion Shield labelled **A0**,
 4. Upload the [Proximity_Indicator](/03_Proximity_Indicator/Proximity_Indicator) code into Arduino 101.
 
+Once you turn on the Arduino 101, it will enter calibration mode for about 3 seconds. Cover the IR Sensor with the desired object which will be tracked to determine the highest brightness, and uncover the IR Sensor to determine the lowest brightness.
 If there are no mistakes, LED Module should blink faster as the object gets near. On the contrary, LED Module should blink slower as the objects gets further.
 
 # [BAHASA INDONESIA] Proyek 3: Proximity Indicator
@@ -34,4 +35,5 @@ Pengukuran jarak dapat dilakukan dengan banyak cara, dimana salah satu metode ya
 3. Hubungkan IR Sensor ke header I/O Expansion Shield yang berlabel **A0**,
 4. Upload kode program [Proximity_Indicator](/03_Proximity_Indicator/Proximity_Indicator) ke Arduino 101.
 
+Pada saat Arduino 101 dinyalakan, Arduino 101 akan memasuki proses kalibrasi selama kurang lebih 3 detik. Tutupi IR Sensor dengan obyek yang hendak dideteksi untuk mendapatkan nilai kecerahan tertinggi, dan hilangkan halangan dari IR Sensor untuk mendapatkan nilai kecerahan terendah.
 Apabila tidak terdapat kesalahan, maka LED Module akan berkedip semakin cepat saat obyek yang dideteksi semakin mendekat. Sebaliknya, LED Module akan berkedip semakin lambat saat obyek yang dideteksi semakin menjauh.
