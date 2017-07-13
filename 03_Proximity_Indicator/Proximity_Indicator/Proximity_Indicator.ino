@@ -44,7 +44,7 @@ void loop() {
   if (distance > 30) {
     distance = 30;
   }
-  if (distance < 1) {
+  else if (distance < 1) {
     distance = 1;
   }
   fadeLED(1, distance);
