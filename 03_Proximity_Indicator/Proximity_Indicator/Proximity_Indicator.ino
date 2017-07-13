@@ -33,8 +33,8 @@ void calibrate(int times) {
 void setup() {
   pinMode(LED_MODULE, OUTPUT);
   //calibration will take about 300*10 ms once
-  //cover IR SENSOR with the desired object to determine the highest brightness
-  //uncover IR SENSOR to determine the lowest brightness
+  //once you turn on the Arduino 101, it will enter calibration mode for about 3 seconds
+  //cover the IR Sensor with the desired object which will be tracked to determine the highest brightness, and uncover the IR Sensor to determine the lowest brightness
   calibrate(300);
 }
 
