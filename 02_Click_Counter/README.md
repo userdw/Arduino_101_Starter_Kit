@@ -13,7 +13,7 @@ On the last project we learned how to control output pin on Arduino/Genuino 101 
 1. Plug the I/O Expansion Shield to the top of Arduino 101,
 2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
 3. Plug the Digital Push Button to the header on the I/O Expansion Shield labelled **2**,
-4. Upload the [Click Counter](/02_Click_Counter/Click_Counter) code into Arduino 101.
+4. Upload the [Click_Counter](/02_Click_Counter/Click_Counter) code into Arduino 101.
 
 If there are no mistakes, LED Module should blink according to the number of clicks given to the Digital Push Button.
 
@@ -32,6 +32,6 @@ Pada proyek sebelumnya, kita telah belajar bagaimana mengendalikan pin output pa
 1. Pasang Adapter Shield di atas Arduino 101,
 2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**,
 3. Hubungkan Digital Push Button ke header I/O Expansion Shield yang berlabel **2**,
-4. Upload kode program [Click Counter](/02_Click_Counter/Click_Counter) ke Arduino 101.
+4. Upload kode program [Click_Counter](/02_Click_Counter/Click_Counter) ke Arduino 101.
 
 Apabila tidak terdapat kesalahan, maka LED Module akan berkedip sesuai dengan jumlah penekanan yang diberikan pada Digital Push Button.
