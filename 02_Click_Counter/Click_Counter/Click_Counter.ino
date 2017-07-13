@@ -1,7 +1,7 @@
 #define LED_MODULE 9
 #define PUSH_BUTTON_MODULE 2
-#define INTERVAL_CLICK 1000
-#define DEBOUNCE_DELAY 150
+//#define INTERVAL_CLICK 1000
+#define DEBOUNCE_DELAY 100
 #define TOGGLE_EXECUTE_DELAY 1500
 
 unsigned long lastDebounceTime = 0;
@@ -19,12 +19,11 @@ void toggleLED(int times) {
 
 void setup() {
   pinMode(LED_MODULE, OUTPUT);
-  digitalWrite(LED_MODULE, HIGH);
-  pinMode(PUSH_BUTTON_MODULE, INPUT_PULLUP);
+  pinMode(PUSH_BUTTON_MODULE, INPUT);
 }
 
 void loop() {
-  if (digitalRead(PUSH_BUTTON_MODULE) == HIGH) {
+  if (!digitalRead(PUSH_BUTTON_MODULE)) {
     lastDebounceTime = millis();
   }
 
@@ -32,8 +31,8 @@ void loop() {
     lastDebounceTime = millis();
     lastBlinkExecuteDelay = millis();
     blinkTimes++;
-    if (blinkTimes > 10) {
-      blinkTimes = 0;
+    if (blinkTimes > 5) {
+      blinkTimes = 5;
     }
   }
 
