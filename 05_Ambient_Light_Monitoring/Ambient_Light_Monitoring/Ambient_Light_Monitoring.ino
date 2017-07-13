@@ -20,8 +20,8 @@ void calibrate(int times) {
 void setup() {
   //calibration will take about 300*10 ms once
   //once you turn on the Arduino 101, it will enter calibration mode for about 3 seconds
-  //cover the LDR Sensor with the your finger to determine the lowest brightness, and uncover the LDR Sensor to determine the highest brightness
-  //becareful of shadows
+  //cover the LDR Sensor with your finger to determine the lowest brightness, and uncover the LDR Sensor to determine the highest brightness
+  //be careful of shadows
   calibrate(300);
 }
 
