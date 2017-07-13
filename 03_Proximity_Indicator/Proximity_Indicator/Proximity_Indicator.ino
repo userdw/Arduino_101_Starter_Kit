@@ -18,7 +18,7 @@ void fadeLED(int times, int delayTime) {
 
 void calibrate(int times) {
   for (int i = 0; i < times; i++) {
-    int brightness = analogRead(A0);
+    int brightness = analogRead(IR_SENSOR);
     if (brightness <= lowBrightness) {
       lowBrightness = brightness;
     }
@@ -40,7 +40,7 @@ void setup() {
 
 void loop() {
   int distance;
-  distance = map(analogRead(A0), lowBrightness, highBrightness, 30, 1);
+  distance = map(analogRead(IR_SENSOR), lowBrightness, highBrightness, 30, 1);
   if (distance > 30) {
     distance = 30;
   }
