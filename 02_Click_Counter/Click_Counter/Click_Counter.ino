@@ -1,7 +1,6 @@
 #define LED_MODULE 9
 #define PUSH_BUTTON_MODULE 2
-//#define INTERVAL_CLICK 1000
-#define DEBOUNCE_DELAY 100
+#define DEBOUNCE_DELAY 80
 #define TOGGLE_EXECUTE_DELAY 1500
 
 unsigned long lastDebounceTime = 0;
@@ -23,7 +22,7 @@ void setup() {
 }
 
 void loop() {
-  if (!digitalRead(PUSH_BUTTON_MODULE)) {
+  if (digitalRead(PUSH_BUTTON_MODULE) == LOW) {
     lastDebounceTime = millis();
   }
 
