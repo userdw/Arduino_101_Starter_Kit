@@ -16,6 +16,7 @@ The system in this project will detect the level of ambient light. When the ambi
 3. Plug the LDR Sensor to the header on the I/O Expansion Shield labelled **A0**,
 4. Upload the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) code into Arduino 101.
 
+Once you turn on the Arduino 101, it will enter calibration mode for about 3 seconds. Cover the LDR Sensor with your finger to determine the lowest brightness, and uncover the LDR Sensor to determine the highest brightness. Be careful of shadows.
 If there are no mistakes, LED Module will gets brighter when the ambient light gets dimmer. On the contrary, LED Module will gets dimmer when the ambient light gets brighter.
 
 # [BAHASA INDONESIA] Proyek 5: Ambient Light Monitoring
@@ -36,4 +37,5 @@ Sistem pada proyek ini akan mendeteksi intensitas cahaya sekitar menggunakan LDR
 3. Hubungkan LDR Sensor ke header Adapter Shield yang berlabel **A0**,
 4. Upload kode program [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) ke Arduino 101.
 
+Pada saat Arduino 101 dinyalakan, Arduino 101 akan memasuki proses kalibrasi selama kurang lebih 3 detik. Tutupi LDR Sensor dengan jari untuk mendapatkan nilai kecerahan terendah, dan hilangkan halangan pada LDR Sensor untuk mendapatkan nilai kecerahan tertinggi. Bayangan akan mempengaruhi proses kalibrasi.
 Apabila tidak terdapat kesalahan, nyala LED Module akan semakin terang saat cahaya sekitar semakin gelap. Sebaliknya, nyala LED Module akan semakin redup saat cahaya sekitar semakin terang.
