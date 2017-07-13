@@ -14,7 +14,7 @@ In this project you will be introduced to buzzer. Buzzer is simply a component t
 3. Upload the [Mario_Bros_Tone_Generator](/07_Mario_Bros_Tone_Generator/Mario_Bros_Tone_Generator) code into Arduino 101.
 
 If there are no mistakes, the system will play Mario Bros tone.
-The code was made by Dipto Pratyaksa and slightly modified for Arduino 101 Starter Kit. Please visit [here] (http://www.princetronics.com/supermariothemesong/) for more information.
+The code was made by Dipto Pratyaksa and slightly modified for Arduino 101 Starter Kit. Please visit [here](http://www.princetronics.com/supermariothemesong/) for more information.
 
 # [BAHASA INDONESIA] Proyek 7: Mario Bros Tone Generator
 Buzzer merupakan komponen yang akan menghasilkan suara ketika diberi tegangan. Kita dapat mengubah nada yang dihasilkan oleh buzzer dengan cara mengubah level tegangan yang diberikan. Salah satu cara yang paling mudah untuk mengubah level tegangan adalah dengan menggunakan Pulse Width Modulation (PWM). Pengembangan yang dapat dilakukan dari sistem proyek ini adalah untuk membuat beberapa macam nada peringatan sebagai user interface, dimana masing-masing nada yang dikeluarkan sistem merepresentasikan hal-hal yang berbeda.
@@ -32,4 +32,4 @@ Buzzer merupakan komponen yang akan menghasilkan suara ketika diberi tegangan. K
 3. Upload kode program [Mario_Bros_Tone_Generator](/07_Mario_Bros_Tone_Generator/Mario_Bros_Tone_Generator) ke Arduino 101.
 
 Apabila tidak terdapat kesalahan, maka sistem akan memainkan nada Mario Bros.
-Kode program tersebut diciptakan oleh Dipto Pratyaksa dan sedikit dimodifikasi untuk digunakan pada Arduino 101 Starter Kit. Kunjungi [link] (http://www.princetronics.com/supermariothemesong/) berikut untuk informasi yang lebih detil.
+Kode program tersebut diciptakan oleh Dipto Pratyaksa dan sedikit dimodifikasi untuk digunakan pada Arduino 101 Starter Kit. Kunjungi [link](http://www.princetronics.com/supermariothemesong/) berikut untuk informasi yang lebih detil.
