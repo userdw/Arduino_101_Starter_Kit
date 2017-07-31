@@ -10,10 +10,11 @@ If we need to control an output which have more states than on/off, we will have
 * Micro Servo (1).
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of Arduino 101,
-2. Plug the Rotation Sensor to the header on the I/O Expansion Shield labelled **A0**,
-3. Plug the Micro Servo to the header on the I/O Expansion Shield labelled **6**,
-4. Upload the [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code into Arduino 101.
+1. **Change the PWR_SEL jumper to 3V3**,
+2. Plug the I/O Expansion Shield to the top of Arduino 101,
+3. Plug the Rotation Sensor to the header on the I/O Expansion Shield labelled **A0**,
+4. Plug the Micro Servo to the header on the I/O Expansion Shield labelled **6**,
+5. Upload the [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code into Arduino 101.
 
 If there are no mistakes, Micro Servo movement will be determined by the rotation of Rotation Sensor.
 
@@ -30,9 +31,10 @@ Pada proyek ini akan dikenalkan penggunaan potensiometer sebagai perangkat input
 * Micro Servo (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang Adapter Shield di atas Arduino 101,
-2. Hubungkan Rotation Sensor ke header Adapter Shield yang berlabel **A0**,
-3. Hubungkan Micro Servo ke header Adapter Shield yang berlabel **6**,
-4. Upload kode program [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) ke Arduino 101.
+1. **Ubah posisi jumper PWR_SEL ke 3V3**,
+2. Pasang Adapter Shield di atas Arduino 101,
+3. Hubungkan Rotation Sensor ke header Adapter Shield yang berlabel **A0**,
+4. Hubungkan Micro Servo ke header Adapter Shield yang berlabel **6**,
+5. Upload kode program [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) ke Arduino 101.
 
 Apabila tidak terdapat kesalahan, gerakan Micro Servo akan ditentukan dari putaran yang diberikan ke Rotation Sensor.
