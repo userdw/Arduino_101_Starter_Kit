@@ -16,7 +16,7 @@ Spirit level, or some of us maybe heard it as waterpass, is a tool to detect the
 After the code has been uploaded, Arduino 101 will take 3 seconds to calibrate the accelerometer. So keep the position of Arduino 101 flat to the surface in the mean time. If there are no mistakes, after the calibration Arduino 101 should start showing you the inclination level based on the measurement from accelerometer.
 
 # [BAHASA INDONESIA] Proyek 9: Spirit Level
-Spirit level, atau biasa disebut sebagai waterpass, merupakan alat yang digunakan untuk mendeteksi kemiringan suatu permukaan relatif terhadap gaya gravitasi. Adapun gaya gravitasi merupakan percepatan dan dilambangkan dengan huruf g, dengan nilai ~9.8 m/s^2. Maka dari itu kita dapat mendeteksinya menggunakan accelerometer yang terintegrasi pada Arduino 101. Sistem pada proyek ini akan menggunakan OLED Module sebagai penampil derajat kemiringan yang dialami oleh accelerometer.
+Spirit level, atau biasa disebut sebagai waterpass, merupakan alat yang digunakan untuk mendeteksi kemiringan suatu permukaan relatif terhadap gaya gravitasi. Adapun gaya gravitasi merupakan percepatan yang dilambangkan dengan huruf g, dengan nilai ~9.8 m/s^2. Maka dari itu kita dapat mendeteksinya menggunakan accelerometer yang terintegrasi pada Arduino 101. Sistem pada proyek ini akan menggunakan OLED Module sebagai penampil derajat kemiringan yang dialami oleh accelerometer.
 
 <img src="/images/Spirit_Level.png" height="400">
 
