@@ -32,7 +32,7 @@ Pada proyek ini akan dikenalkan penggunaan potensiometer sebagai perangkat input
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. **Ubah posisi jumper PWR_SEL pada I/O Expansion Shield ke 3V3**,
-2. Pasang Adapter Shield di atas Arduino 101,
+2. Pasang I/O Expansion Shield di atas Arduino 101,
 3. Hubungkan Rotation Sensor ke header Adapter Shield yang berlabel **A0**,
 4. Hubungkan Micro Servo ke header Adapter Shield yang berlabel **6**,
 5. Upload kode program [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) ke Arduino 101.
