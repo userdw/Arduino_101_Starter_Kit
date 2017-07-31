@@ -29,9 +29,9 @@ Bagaimana kita dapat menambahkan fitur pendeteksi gerakan pada sistem kita? Jawa
 * PIR Sensor (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang Adapter Shield di atas Arduino 101,
-2. Hubungkan LED Module ke header Adapter Shield yang berlabel **9**,
-3. Hubungkan PIR Sensor ke header Adapter Shield yang berlabel **2**,
+1. Pasang I/O Expansion Shield di atas Arduino 101,
+2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**,
+3. Hubungkan PIR Sensor ke header I/O Expansion Shield yang berlabel **2**,
 4. Upload kode program [Motion_Detector](/04_Motion_Detector/Motion_Detector) ke Arduino 101.
 
 Apabila tidak terdapat kesalahan, LED Module akan berkedip selama terdapat gerakan yang dideteksi oleh PIR Sensor.
