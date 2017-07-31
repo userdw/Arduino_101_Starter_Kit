@@ -5,7 +5,7 @@ Just as regular Arduino modules (or even better), Arduino 101 holds a lot of pot
 1. [Forest Air Quality Monitor](),
 2. [Seed Plantation using Robots](),
 3. [Smart Irrigation Pump](),
-4. [Smart Garbage Bins],
+4. [Smart Garbage Bins](),
 5. [Forest Fire Detection]().
 
 # [BAHASA INDONESIA] Contoh Aplikasi Tambahan Arduino 101
