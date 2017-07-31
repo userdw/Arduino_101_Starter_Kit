@@ -6,7 +6,7 @@ Spirit level, or some of us maybe heard it as waterpass, is a tool to detect the
 ### In this project you will need:
 * Arduino 101 (1),
 * I/O Expansion Shield (1),
-* OLED Module.
+* OLED Module (1).
 
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of Arduino 101,
@@ -23,7 +23,7 @@ Spirit level, atau biasa disebut sebagai waterpass, merupakan alat yang digunaka
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * Arduino 101 (1),
 * I/O Expansion Shield (1),
-* OLED Module.
+* OLED Module (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang I/O Expansion Shield di atas Arduino 101,
