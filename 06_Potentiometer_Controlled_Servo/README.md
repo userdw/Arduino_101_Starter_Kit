@@ -16,7 +16,7 @@ If we need to control an output which have more states than on/off, we will have
 4. Plug the Micro Servo to the header on the I/O Expansion Shield labelled **6**,
 5. Upload the [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code into Arduino 101.
 
-If there are no mistakes, Micro Servo movement will be determined by the rotation of Rotation Sensor.
+If there are no mistakes, Micro Servo movement will be determined by the rotation of Rotation Sensor. If you don't get the full swing from the servo, it might be you didn't change the position of PWR_SEL jumper to 3V3.
 
 # [BAHASA INDONESIA] Proyek 6: Potentiometer Controlled Servo
 Apabila kita hendak mengendalikan suatu output yang memiliki beberapa keadaan selain on/off, maka kita akan mengalami kesulitan apabila menggunakan switch sebagai input, karena switch sendiri hanya memiliki dua kondisi saja. Beberapa contoh sederhana adalah pengaturan kecepatan suatu motor, pengaturan intensitas cahaya suatu lampu, pengaturan kecepatan gerak dari sebuah running text, dll.
@@ -37,4 +37,4 @@ Pada proyek ini akan dikenalkan penggunaan potensiometer sebagai perangkat input
 4. Hubungkan Micro Servo ke header Adapter Shield yang berlabel **6**,
 5. Upload kode program [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) ke Arduino 101.
 
-Apabila tidak terdapat kesalahan, gerakan Micro Servo akan ditentukan dari putaran yang diberikan ke Rotation Sensor.
+Apabila tidak terdapat kesalahan, gerakan Micro Servo akan ditentukan dari putaran yang diberikan ke Rotation Sensor. Apabila gerakan servo tidak penuh 180 derajat kemungkinan posisi jumper PWR_SEL belum diubah ke 3V3.
