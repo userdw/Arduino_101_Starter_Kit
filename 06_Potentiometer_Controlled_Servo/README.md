@@ -10,7 +10,7 @@ If we need to control an output which have more states than on/off, we will have
 * Micro Servo (1).
 
 ### Assemble the modules following these steps:
-1. **Change the PWR_SEL jumper to 3V3**,
+1. **Change the PWR_SEL jumper on I/O Expansion Shield to 3V3**,
 2. Plug the I/O Expansion Shield to the top of Arduino 101,
 3. Plug the Rotation Sensor to the header on the I/O Expansion Shield labelled **A0**,
 4. Plug the Micro Servo to the header on the I/O Expansion Shield labelled **6**,
@@ -31,7 +31,7 @@ Pada proyek ini akan dikenalkan penggunaan potensiometer sebagai perangkat input
 * Micro Servo (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. **Ubah posisi jumper PWR_SEL ke 3V3**,
+1. **Ubah posisi jumper PWR_SEL pada I/O Expansion Shield ke 3V3**,
 2. Pasang Adapter Shield di atas Arduino 101,
 3. Hubungkan Rotation Sensor ke header Adapter Shield yang berlabel **A0**,
 4. Hubungkan Micro Servo ke header Adapter Shield yang berlabel **6**,
