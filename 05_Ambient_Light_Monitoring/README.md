@@ -32,9 +32,9 @@ Sistem pada proyek ini akan mendeteksi intensitas cahaya sekitar menggunakan LDR
 * LDR Sensor (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang Adapter Shield di atas Arduino 101,
-2. Hubungkan LED Module ke header Adapter Shield yang berlabel **9**,
-3. Hubungkan LDR Sensor ke header Adapter Shield yang berlabel **A0**,
+1. Pasang I/O Expansion Shield di atas Arduino 101,
+2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**,
+3. Hubungkan LDR Sensor ke header I/O Expansion Shield yang berlabel **A0**,
 4. Upload kode program [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) ke Arduino 101.
 
 Pada saat Arduino 101 dinyalakan, Arduino 101 akan memasuki proses kalibrasi selama kurang lebih 3 detik. Tutupi LDR Sensor dengan jari untuk mendapatkan nilai kecerahan terendah, dan hilangkan halangan pada LDR Sensor untuk mendapatkan nilai kecerahan tertinggi. Bayangan akan mempengaruhi proses kalibrasi.
