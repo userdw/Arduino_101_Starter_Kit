@@ -1,5 +1,5 @@
 # [ENGLISH] Project 9: Spirit Level
-Spirit level, or some of us maybe heard it as waterpass, is a tool to detect the inclination of a surface relative to gravitation. Gravitational force is an acceleration denoted as g with value of ~9.8 m/s^2, therefore we can detect it with accelerometer inside Arduino 101. This project will utilize OLED Module to display the inclination level which is detected by the accelerometer.
+Spirit level, or some of us might know it as waterpass, is a tool to detect the inclination of a surface relative to gravitation. Gravitational force is an acceleration denoted as g with value of ~9.8 m/s^2, therefore we can detect it with accelerometer inside Arduino 101. This project will utilize OLED Module to display the inclination level which is detected by the accelerometer.
 
 <img src="/images/Spirit_Level.png" height="400">
 
