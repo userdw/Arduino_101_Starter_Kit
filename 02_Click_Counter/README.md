@@ -29,7 +29,7 @@ Pada proyek sebelumnya, kita telah belajar bagaimana mengendalikan pin output pa
 <img src="/images/Click_Counter.png" height="400">
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang Adapter Shield di atas Arduino 101,
+1. Pasang I/O Expansion Shield di atas Arduino 101,
 2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **9**,
 3. Hubungkan Digital Push Button ke header I/O Expansion Shield yang berlabel **2**,
 4. Upload kode program [Click_Counter](/02_Click_Counter/Click_Counter) ke Arduino 101.
