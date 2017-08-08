@@ -6,9 +6,6 @@
 //OLED coordinate start at top-left corner from 0
 U8G2_SSD1306_128X64_VCOMH0_F_4W_HW_SPI oled(U8G2_R0, 10, 9, 8);
 
-//lcd characteristic
-uint8_t horCenter = 0, verCenter = 0;
-
 void drawDiscMenu(int x, int y, int z) {
   if (x < -16383) {
     x = -16383;
@@ -56,8 +53,6 @@ void setup(void) {
   oled.begin();
   CurieIMU.begin();
   CurieIMU.setAccelerometerRange(2);
-  horCenter = oled.getDisplayWidth() / 2;
-  verCenter = oled.getDisplayHeight() / 2;
   oled.clearBuffer();
   drawWelcomeMenu();
   oled.sendBuffer();
