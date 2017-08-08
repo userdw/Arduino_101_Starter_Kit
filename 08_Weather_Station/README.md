@@ -11,7 +11,7 @@ This project is aimed to give you a simple example about how to use microcontrol
 
 Before you start to program your Arduino 101, you will need u8g2 library from olikraus. You can found the github page for u8g2 library [here](https://github.com/olikraus/u8g2). Instalation for u8g2 can be done through Arduino IDE (**Sketch | Include Library | Manage Libraries...**).
 
-<img src="/images/u8g2.png" height="400">
+<img src="/images/u8g2.png" height="300">
 
 ### Assemble the modules following these steps:
 1. **Change the PWR_SEL jumper on I/O Expansion Shield to 3V3**,
@@ -35,7 +35,7 @@ Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan mikro
 
 Sebelum Anda memulai memprogram Arduino 101, Anda terlebih dahulu perlu untuk menyertakan library u8g2 dari olikraus. Halaman github untuk u8g2 dapat ditemukan pada [link berikut](https://github.com/olikraus/u8g2). Instalasi untuk u8g2 dapat dilakukan melalui Arduino IDE (**Sketch | Include Library | Manage Libraries...**).
 
-<img src="/images/u8g2.png" height="400">
+<img src="/images/u8g2.png" height="300">
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. **Ubah posisi jumper PWR_SEL pada I/O Expansion Shield ke 3V3**,
