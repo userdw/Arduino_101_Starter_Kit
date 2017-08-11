@@ -2,7 +2,7 @@
 This part is the collection of shematics for each modules in Arduino 101 Starter Kit. They will be useful as reference if you ever want to make your own custom circuits.
 
 ### Modules:
-1. [Digital_Buzzer_Module](/Schematics/Digital Buzzer Module.pdf),
+1. [Digital_Buzzer_Module](/Schematics/Digital%20Buzzer%20Module.pdf),
 2. [Digital_Push_Button](/Schematics/Digital Push Button.pdf),
 3. [IO_Expansion_Shield](/Schematics/IO Expansion Shield.pdf),
 4. [IR_Sensor](/Schematics/IR Sensor.pdf),
