@@ -9,9 +9,10 @@ Spirit level, or some of us might know it as waterpass, is a tool to detect the 
 * OLED Module (1).
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of Arduino 101,
-2. Plug the OLED Module to I/O Expansion Shield,
-3. Upload the [Spirit_Level](/09_Spirit_Level/Spirit_Level) code into Arduino 101.
+1. **Change the PWR_SEL jumper on I/O Expansion Shield to 3V3**,
+2. Plug the I/O Expansion Shield to the top of Arduino 101,
+3. Plug the OLED Module to I/O Expansion Shield,
+4. Upload the [Spirit_Level](/09_Spirit_Level/Spirit_Level) code into Arduino 101.
 
 After the code has been uploaded, Arduino 101 will take 3 seconds to calibrate the accelerometer. So keep the position of Arduino 101 flat to the surface in the mean time. If there are no mistakes, after the calibration Arduino 101 should start showing you the inclination level based on the measurement from accelerometer.
 
@@ -26,8 +27,9 @@ Spirit level, atau biasa disebut sebagai waterpass, merupakan alat yang digunaka
 * OLED Module (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang I/O Expansion Shield di atas Arduino 101,
-2. Hubungkan OLED Module ke I/O Expansion Shield,
-3. Upload kode program [Spirit_Level](/09_Spirit_Level/Spirit_Level) ke Arduino 101.
+1. **Ubah posisi jumper PWR_SEL pada I/O Expansion Shield ke 3V3**,
+2. Pasang I/O Expansion Shield di atas Arduino 101,
+3. Hubungkan OLED Module ke I/O Expansion Shield,
+4. Upload kode program [Spirit_Level](/09_Spirit_Level/Spirit_Level) ke Arduino 101.
 
 Setelah kode program diupload, Arduino 101 akan melakukan proses kalibrasi sensor selama 3 detik. Jadi jaga agar posisi Arduino 101 tetap rata dengan permukaan. Apabila tidak terdapat kesalahan, setelah proses kalibrasi Arduino 101 akan menampilkan derajat kemiringan berdasarkan pengukuran dari accelerometer.
