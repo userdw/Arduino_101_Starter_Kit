@@ -19,7 +19,7 @@ For more information about each products please visit links below:
 * [10. IMU Controlled Display](/10_IMU_Controlled_Display)
 * [11. Speed and Cadence Monitor](/11_Speed_and_Cadence_Monitor)
 
-Those projects listed above are aimed as introductory to Arduino 101 features. Other various examples can be found in [Other_Applications](/12_Other_Applications).
+Those projects listed above are aimed as introductory to Arduino 101's features. Other various examples can be found in [Other_Applications](/12_Other_Applications).
 
 # [BAHASA INDONESIA] Arduino 101 Starter Kit
 Repository ini dibuat sebagai pelengkap dari Arduino 101 Starter Kit.
