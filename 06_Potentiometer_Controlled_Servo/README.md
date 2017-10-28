@@ -14,7 +14,7 @@ If we need to control an output which have more states than on/off, we will have
 2. Plug the I/O Expansion Shield to the top of Arduino 101,
 3. Plug the Rotation Sensor to the header on the I/O Expansion Shield labelled **A0**,
 4. Plug the Micro Servo to the header on the I/O Expansion Shield labelled **6**,
-5. Upload the [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code into Arduino 101.
+5. Upload the [Potentiometer_Controlled_Servo](/06_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code into Arduino 101.
 
 If there are no mistakes, Micro Servo movement will be determined by the rotation of Rotation Sensor. If you don't get the full swing from the servo, it might be you didn't change the position of PWR_SEL jumper to 3V3.
 
@@ -35,6 +35,6 @@ Pada proyek ini akan dikenalkan penggunaan potensiometer sebagai perangkat input
 2. Pasang I/O Expansion Shield di atas Arduino 101,
 3. Hubungkan Rotation Sensor ke header I/O Expansion Shield yang berlabel **A0**,
 4. Hubungkan Micro Servo ke header I/O Expansion Shield yang berlabel **6**,
-5. Upload kode program [Potentiometer_Controlled_Servo](/05_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) ke Arduino 101.
+5. Upload kode program [Potentiometer_Controlled_Servo](/06_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) ke Arduino 101.
 
 Apabila tidak terdapat kesalahan, gerakan Micro Servo akan ditentukan dari putaran yang diberikan ke Rotation Sensor. Apabila gerakan servo tidak penuh 180 derajat kemungkinan posisi jumper PWR_SEL belum diubah ke 3V3.
