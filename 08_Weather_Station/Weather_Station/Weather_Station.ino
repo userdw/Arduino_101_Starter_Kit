@@ -8,7 +8,7 @@ int16_t measurement[5] = { -1, -1, -1, -1, -1};
 unsigned long oldTime = 30000;
 
 void drawLevelPage(int16_t *temperature) {
-  String temperatureStr = String(temperature[0]) + "°C";
+  String temperatureStr = String(temperature[0]) + "\xb0" + "C";
 
   oled.drawVLine(0, 16, 63);
   oled.drawVLine(10, 16, 63);
@@ -36,7 +36,7 @@ void drawLevelPage(int16_t *temperature) {
 
   for (byte i = 1; i < 5; i++) {
     if (temperature[i] == -1) temperatureStr = "NA";
-    else temperatureStr = String(temperature[i]) + "°C";
+    else temperatureStr = String(temperature[i]) + "\xb0" + "C";
     xPosString = oled.getDisplayWidth() * 3 / 4 - oled.getStrWidth(temperatureStr.c_str()) / 2;
     oled.drawStr(xPosString, 28 + ((i - 1) * 10), temperatureStr.c_str());
   }
